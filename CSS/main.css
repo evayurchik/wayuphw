@@ -1,0 +1,166 @@
+body {
+    font-family: 'Open Sans', sans-ser;
+       font-size: 15px;
+       padding: 0;
+       margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+header {
+    background: linear-gradient(90deg, rgba(77,190,253,1)
+     0%, rgba(68,145,206,1) 45%);
+     padding-top: 90px;
+     color: #fff;
+     padding-bottom: 140px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-top: 160px;
+    width: 580px;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    line-height: 1.3em;
+}
+
+span {
+    font-size: 50px;
+   
+}
+
+p {
+    line-height: 1.6em;
+}
+
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 45px;
+    width: 400px;
+
+}
+
+.btn {
+    background: #ffd429;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    display: block;
+    width: 220px;
+    height: 58px;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #e0a900 ;
+}
+
+.luggage {
+    width: 520px;
+    margin-top: 75px;
+    height: 525px;
+}
+
+.learn {
+    padding-top: 113px;
+    padding-bottom: 113px;
+}
+h2 {
+    text-align: center;
+}
+
+.section-title {
+ font-size: 30px;
+}
+
+.values {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.value {
+    width: 300px;
+    background:url('../img/icon1.jpg') no-repeat center top;
+    text-align: center;
+
+}
+.value-title {
+    font-size: 19px;
+    padding-top: 80px;
+   }
+
+.vaiue-text {
+    margin-top: 20px;
+}
+
+.value-trip {
+    background:url('../img/icon2.jpg') no-repeat center top;
+}
+
+.value-make {
+    background:url('../img/icon3.jpg') no-repeat center top;  
+}
+
+.mail {
+    background: #ecf3f8;
+    padding-top: 100px ;
+    padding-bottom: 100px;
+}
+.form {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    width: 344px;
+    border: 1px solid #bbbbbb;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    height: 48px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    }
+
+.btn-form {
+    border: none;
+cursor: pointer;
+}
+.footer {
+    padding: 65px 0 ;
+    background: #164d7a;
+    text-align: center;
+}
+
+.credits {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+ }
